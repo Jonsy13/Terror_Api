@@ -12,9 +12,6 @@ app.listen(process.env.PORT || 3000, () => {
 })
 
 
-app.get('/', (req, res) => {
-    console.log("Home");
-})
 // app.post('/Predict', (req, res) => {
 app.post('/Predict', (req, res) => {
 
